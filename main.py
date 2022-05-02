@@ -1,8 +1,7 @@
 import os
 import time
-import cython
 
-from swa import cy_swa
+from cython_swa.swa import cy_swa
 
 
 def py_swa(seq1: str, seq2: str) -> None:
